@@ -1,0 +1,352 @@
+    *
+    {
+	  scroll-behavior: smooth;
+	}
+	body 
+	{
+		background-color: #e5f9ec;
+		background-size:cover;
+	}
+	.full-page{
+		background-image: url("bg-3");
+	    background-repeat: repeat;
+		background-size: contain;
+	}
+	a
+    {
+    text-decoration: none;
+    color: purple;
+    font-size: 35px;
+	font-family: 'Yatra One', cursive ;
+    }
+	@media only screen and (max-width:600px) {
+	  html
+	  {
+		font-size: 10px;
+	  }
+	  .desc
+	  {
+		display: inline !important; 
+	  }
+	  .about2 , .about{
+		display: grid;
+	  }
+	  .main-page-pic
+	  {
+		  border-radius: 100%;
+		  padding: 5%;
+		  max-height:150px !important;
+		  max-width: 150px !important;
+	  }
+		.banner
+		{
+			text-align: center;
+	
+		}
+		.desc{
+		  display: block;
+		}
+		.card{
+			width: 40% !important;
+			height: auto;
+		}
+	.phone
+	{
+		display: none;
+	}
+	#brand-name
+	{
+	width: 50%;
+	}
+
+	}
+	.navbar-brand
+	{
+		text-align: center;
+	}
+	
+	.font-size1
+	{
+		font-size: 30px;
+	}
+	.nav-link
+	{
+		margin-left: 15px;
+		color:  purple;
+	}
+	.about
+	{
+		display: flex;
+	}
+	.about2
+	{
+		display: flex;
+	}
+	.about
+	{
+		padding: 5%;
+	}
+	.about2{
+		padding: 5%;
+	}
+	.card {
+	  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	  width: 20%;
+	  
+	  text-align: center;
+	  font-family: arial;
+	}
+	
+	.title {
+	  color: grey;
+	  font-size: 18px;
+	}
+	
+	.cards {
+	  border: none;
+	  outline: 0;
+	  display: inline-block;
+	  padding: 8px;
+	  color: white;
+	  background-color: rgb(65, 249, 4);
+	  text-align: center;
+	  cursor: pointer;
+	  width: 100%;
+	  font-size: 18px;
+	}
+	
+	.card-link {
+	  text-decoration: none;
+	  font-size: 22px;
+	  color: rgb(5, 247, 13);
+	}
+	
+	.cards:hover, .card-link:hover {
+	  opacity: 0.7;
+	}
+	.cards-main
+	{
+		display: flex;
+		justify-content: space-evenly ;
+	}
+#login-form
+{
+    display: none;
+}
+.form-box
+{
+    width:380px;
+	height:480px;
+	position:relative;
+	margin:2% auto;
+	background:rgba(0,0,0,0.3); 
+	padding:10px;
+    overflow: hidden;
+}
+.button-box
+{
+	width:220px;
+	margin:35px auto;
+	position:relative;
+	box-shadow: 0 0 20px 9px #ff61241f;
+	border-radius: 30px;
+}
+.toggle-btn
+{
+	padding:10px 30px;
+	cursor:pointer;
+	background:transparent;
+	border:0;
+	outline: none;
+	position: relative;
+}
+#btn
+{
+	top: 0;
+	left:0;
+	position: absolute;
+	width: 110px;
+	height: 100%;
+	background: #F3C693;
+	border-radius: 30px;
+	transition: .5s;
+}
+.input-group-login
+{
+	top: 150px;
+	position:absolute;
+	width:280px;
+	transition:.5s;
+}
+.input-group-register
+{
+    top: 120px;
+	position:absolute;
+	width:280px;
+	transition:.5s;
+}
+.input-field
+{
+	width: 100%;
+	padding:10px 0;
+	margin:5px 0;
+	border-left:0;
+	border-top:0;
+	border-right:0;
+	border-bottom: 1px solid #999;
+	outline:none;
+	background: transparent;
+}
+.submit-btn
+{
+	width: 85%;
+	padding: 10px 30px;
+	cursor: pointer;
+	display: block;
+	margin: auto;
+	background: #f3c693;
+	border: 0;
+	outline: none;
+	border-radius: 30px;
+}
+.check-box
+{
+	margin: 30px 10px 34px 0;
+}
+span
+{
+	color:aqua;
+	font-size:12px;
+	bottom:68px;
+	position:absolute;
+}
+#login
+{
+	left:50px;
+}
+#login input
+{
+	color:white;
+	font-size:15;
+}
+#login input::-webkit-input-placeholder{
+	color:aqua;
+}
+#register
+{
+	left:450px;
+	
+}
+#register input
+{
+	color:white;
+	font-size: 15;
+}
+ #register input::-webkit-input-placeholder{
+	color:aqua; }
+
+.front-page{
+	height: 200%;
+	width: 100%;
+	background-image: url("bg-1.jpg");
+	background-repeat: repeat;
+	background-size:cover;
+	
+}
+.heading{
+	text-align: center;
+	margin-top: 5%;
+	font-size: 0.75cm;
+	color:white;
+}
+.csec {
+	background: linear-gradient(to right, #FA4B37, #DF2771);
+	background-attachment: fixed; 
+	position: absolute;
+	width: 100%;
+	height: 250px;
+	top: 200px;
+	content: '';
+	transform-origin: top right;
+	transform: skewY(-10deg);
+	z-index: -1;
+}
+.back-contact {
+	margin-top: 0px;
+	transform: translateY(-50px);
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.cc {
+	height: 400px;
+	width: 400px;
+	height: 500px;
+	border-radius: 10px;
+	justify-content: center;
+	box-shadow: 1px 1px 20px rgba(0,0,0,0.4);
+	background: #fff;
+}
+.cc form {
+	margin: 5%;
+	margin-top: 30px;
+	width: 90%;
+	height: 90%;
+}
+.cc form label {
+	position: absolute;
+	color: #2E3D49;
+	font-size: 10px;
+	font-weight: 800;
+}
+.cc form input {
+	padding: 15px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	box-shadow: inset 0 0 5px lightgray;
+	border: 1px solid rgba(0,0,0,0.2);
+	outline: none;
+	color: #2E3D49;
+	font-weight: 600;
+}
+form textarea {
+	width: 100%;
+	height: 100px;
+	box-shadow: inset 0 0 5px lightgray;
+	border: 1px solid rgba(0,0,0,0.2);
+	border-radius: 5px;
+	outline: none;
+	color: #2E3D49;
+	font-weight: 600;
+	padding: 15px;
+}
+#csubmit {
+	margin-top: 6px; 
+	background: linear-gradient(to right, #FA4B37, #DF2771);
+	border-radius: 5px;
+	border-style: none;
+	outline: none;
+	width: 100%;
+	padding: 15px 25px;
+	color: #fff;
+	font-size: 12px;
+	cursor: pointer;
+}
+.wrapper{
+	margin: 60px auto;
+	width: 90%;
+}
+img{
+	max-width: 120px;
+	float: left;
+	margin-right: 15px;
+	/* border-radius: 100%; */
+}
+
+.text-box{
+	color: blue;
+}
+.text-box h4{
+	color: black;
+}
+
